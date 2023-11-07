@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" 
+      />
+    <link rel="stylesheet" href="estilo.css">
+    <title>EO Desarrollador Web</title>
+</head>
+
+<body>
+    <!--SECCION INICIO-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                  <h1>/EO/</h1>
+                  <nav id="nav" class="">
+                    <ul id="links">
+                        <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                        <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                        <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                        <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                        <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                    </ul>
+                  </nav>
+
+                  <!--Iconos del menu responsive-->
+                  <!-- <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div> -->
+
+                <!--Iconos de las redes sociales-->
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a> <a href="https://www.linkedin.com/in/eduardo-ortiz-ba9a56281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Linkedin</a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a> <a href="https://wa.me/1168981608" target="_blank" >Whatsapp</a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a> <a href="https://instagram.com/eduardo_ortiz14?utm_source=qr&igshid=ZTM4ZDRiNzUwMw==" target="_blank">Instagram</a>
+               </div>
+                 </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Eduardo Ortiz</span>, Desarrollador Web</h2>
+                     <a href="#portfolio">Ir a Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto (2).jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Eduardo Ortiz</span></h2>
+            <h3>Desarrollador Web Fronted</h3>
+            <p>Soy un apasionado Desarrollador Web, con la intención de sumarme a proyectos desafiantes.Con ganas de crecer tanto personal como profesionalmente.</p>
+                  <p>
+                     Mi objetivo es fusionar diseño y tecnología para construir sitios web que no sólo sean visualmente atractivos, si no también funcionales y eficientes.</p>
+                     <p>La tecnología Web está en constante evolución y me encanta mantenerme actualizado con las últimas tendencias y mejores prácticas.
+                        Siempre estoy dispuesto a aprender nuevas tecnologías y herramientas que mejoren mi conjunto de habilidades.
+                     </p>
+                     <a target="_blank" href="Curriculum Vitae Profesional de Hombre con Foto Sencillo Azul_20231018_234731_0000 (1).pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!--SECCION SERVICIOS-->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="contenedor-servicios">
+            <div class="filaServicios">
+                <div class="servicios">
+                    <p>Diseño de Sitios Web</p>
+                 </div>
+                 
+                 <div class="servicios">
+                     <p>Posicionamiento SEO</p>
+                 </div>
+            </div>
+
+            <div class="filaServicios">
+                <div class="servicios">
+                    <p>Alojamiento de Sitios</p>
+                </div>
+    
+                <div class="servicios">
+                    <p>Diseñador Gráfico</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+<!-- html, css, jAVAsCRIPT, bOOTstrap, base de datos, react -->
+    <!--SECCION HABILIDADES-->
+    <div class="contenedor-skills" id="skills">
+        <h3 class="titulo-seccion">HABILIDADES</h3>
+        <div class="skill contenedor-habilidades">
+            <div class="info filaHabilidades">
+                <div class="contenedor-skllis cuadradoHabilidades" id="skills">
+                    <!-- <div class="skill"> -->
+                    <div class="info divPHabilidades">
+                        <p><span class="lista"></span>HTML</p>
+                    </div>
+                    <div class="icono divIconHabilidades">
+                        <img src="./img/iconHtml.svg" alt="">
+                    </div>
+                    <!-- </div> -->
+                </div>
+        
+                <div class="skill cuadradoHabilidades">
+                    <div class="info divPHabilidades">
+                        <p><span class="lista"></span>CSS</p>
+                    </div>
+                    <div class="icono divIconHabilidades">
+                        <img src="./img/iconCss.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill filaHabilidades">
+                <div class="cuadradoHabilidades">
+                    <div class="info divPHabilidades">
+                        <p><span class="lista"></span>JavaScript</p>
+                    </div>
+                    <div class="icono divIconHabilidades">
+                        <img src="./img/iconJavascript.svg" alt="">
+                    </div>
+                </div>
+                <div class="cuadradoHabilidades">
+                    <div class="info divPHabilidades">
+                        <p><span class="lista"></span>BOOTSTRAP</p>
+                    </div>
+                    <div class="icono divIconHabilidades">
+                        <img src="./img/iconBootstrap.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="filaHabilidades ultimaFila">
+                <div class="cuadradoHabilidades">
+                    <div class="divPHabilidades">
+                        <p><span class="lista"></span>ReactJS</p>
+                    </div>
+                    <div class="divIconHabilidades">
+                        <img src="./img/iconReact.svg" alt="">
+                    </div>
+                </div>
+                <div class="cuadradoHabilidades">
+                    <div class=divPHabilidades>
+                        <p><span class="lista"></span>Base de Datos</p>
+                    </div>
+                    <div class="divIconHabilidades">
+                        <img src="./img/iconBasededatos.svg" alt="">
+                    </div>                    
+                </div>
+            </div>
+
+
+
+
+        </div>
+        </div>
+           </div>
+
+
+        <!--SECCION PORTAFOLIO-->
+        <section id="portfolio">
+            <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <!-- <div class="overlay"></div> -->
+                    <div class="divImgProyectos">
+                        <img src="img/proyecto 1.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h4>descripcion del proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <!-- <div class="overlay"></div> -->
+                    <div class="divImgProyectos">
+                        <img src="img/Proyecto2.jpeg" alt="">
+                    </div>
+                    
+                    <div class="info">
+                        <h4>descripcion del proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SECCION CONTACTO-->
+        <section id="contacto">
+            <h3 class="titulo-seccion">Contáctame Ahora</h3>
+            <div class="contenedor-form">
+                <form action="">
+                    <div class="fila mitad">
+                        <input type="text"placeholder="Nombre Completo" class="input mitad">
+                        <input type="text" placeholder="Dirección de Email" class="input-mitad">
+                    </div>
+                    <div class="fila divInput">
+                        <input type="text" placeholder="tema..." class="input full">
+                    </div>
+                    <div class="fila">
+                        <div class="fila divInput">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                        </div>
+                        <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!--SECCION FOOTER-->
+        <footer>
+            <p>Todos los derechos reservados - 2023</p>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+           </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </div>
+
+</body>
+</html>
